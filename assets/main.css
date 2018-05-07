@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,900");
+@import url("https://fonts.googleapis.com/css?family=Proza+Libre");
+body, .page {
+  margin: 0;
+  overflow: auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-family: "Raleway", "sans-serif";
+  font-weight: 900; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none; }
+
+h1 {
+  font-size: 2.2rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.8rem; }
+
+h4 {
+  font-size: 1.6rem; }
+
+h5 {
+  font-size: 1.4rem; }
+
+h6 {
+  font-size: 1.2rem; }
+
+body {
+  font-size: 1.2em;
+  font-family: "Proza Libre", "sans-serif"; }
+
+p {
+  line-height: 1.6; }
+
+body {
+  width: 100%;
+  margin: auto; }
+  @media only screen and (min-width: 90em) {
+    body {
+      max-width: 90rem; } }
+
+.page {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  padding-left: 10%;
+  padding-right: 10%; }
+  .page::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.column {
+  box-sizing: border-box; }
+  @media screen and (min-width: 45em) {
+    .column {
+      width: 61%;
+      float: left; } }
+
+.sidebar {
+  box-sizing: border-box; }
+  @media screen and (min-width: 45em) {
+    .sidebar {
+      width: 28%;
+      float: right; } }
+
+.navigation {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  position: sticky;
+  top: 0rem; }
+  .navigation::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.sitelinks {
+  padding: 0;
+  margin: 0;
+  float: right;
+  text-align: right; }
+  .sitelinks li {
+    display: none; }
+    @media screen and (min-width: 30em) {
+      .sitelinks li {
+        padding: 0 1rem 0 0;
+        display: inline-block; }
+        .sitelinks li:last-child {
+          padding: 0; } }
+  .sitelinks label {
+    display: block; }
+    @media screen and (min-width: 30em) {
+      .sitelinks label {
+        display: none !important; } }
+  .sitelinks input[type=checkbox] {
+    display: none; }
+  .sitelinks input[type=checkbox]:checked ~ li {
+    display: block; }
+
+.sociallinks {
+  float: left;
+  padding: 0;
+  margin: 0; }
+  .sociallinks li {
+    padding: 0 1rem 0 0;
+    display: inline-block; }
+    .sociallinks li:last-child {
+      padding: 0; }
+
+.navicon {
+  vertical-align: middle; }
+
+.cover {
+  background-color: unset;
+  background: unset;
+  margin-top: 55vw; }
+  @media only screen and (min-width: 30em) {
+    .cover {
+      position: relative;
+      margin-top: 0;
+      height: 55vw;
+      max-height: calc(100vh - 2.6rem); } }
+  @media only screen and (min-width: 90em) {
+    .cover {
+      height: 49.5rem; } }
+  .cover img {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: -1;
+    top: 0; }
+    @media only screen and (min-width: 90em) {
+      .cover img {
+        max-width: 90rem; } }
+
+.masthead {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  overflow: hidden; }
+  @media only screen and (min-width: 30em) {
+    .masthead {
+      position: absolute;
+      bottom: 0; } }
+  .masthead h1 {
+    font-size: 3rem;
+    margin: 2rem auto 1rem auto; }
+    @media screen and (min-width: 30em) {
+      .masthead h1 {
+        font-size: 4rem;
+        margin: 3rem auto 1rem auto; } }
+  .masthead p {
+    font-family: "Raleway", "sans-serif";
+    font-size: 1.5rem;
+    margin: 0 auto 2rem auto; }
+
+.page {
+  background-color: #fff7cc;
+  color: #0d0c0c; }
+  .page a {
+    color: #490404; }
+    .page a:hover, .page a:focus {
+      color: #a11212; }
+
+.masthead {
+  background-color: #ffff99;
+  color: #0d0c0c; }
+  .masthead a {
+    color: #0d0c0c; }
+    .masthead a:hover, .masthead a:focus {
+      color: #490404; }
+  @media screen and (min-width: 30em) {
+    .masthead {
+      background-color: rgba(255, 255, 153, 0.45);
+      background: linear-gradient(45deg, rgba(255, 255, 153, 0.25) 5%, rgba(255, 255, 153, 0.45) 5%, rgba(255, 255, 153, 0.45) 45%, rgba(255, 255, 153, 0.25) 45%, rgba(255, 255, 153, 0.25) 55%, rgba(255, 255, 153, 0.45) 55%, rgba(255, 255, 153, 0.45) 95%, rgba(255, 255, 153, 0.25) 95%);
+      background-size: 5px 5px; } }
+
+.navigation {
+  background-color: #490404;
+  color: #ebb447; }
+  .navigation a {
+    color: #ebb447; }
+    .navigation a.active {
+      color: #da840b; }
+    .navigation a:hover, .navigation a:focus {
+      color: #da840b; }
