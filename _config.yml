@@ -62,6 +62,7 @@ exclude:
   - vendor/ruby/
   - .gitignore
   - .git/
+  - README.md
   
 # Plugin Settings
 
