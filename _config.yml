@@ -9,8 +9,8 @@ defaults:
     alt: Smiling Sudanese Girls
   sidebar: 
     - donate
-baseurl: ""
-url: "https://derpayatz.github.io/mayriam-dar/"
+baseurl: "maryiam-dar"
+url: "https://derpayatz.github.io/"
 
 date_format: "%B %d, %Y"
 
