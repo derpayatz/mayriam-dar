@@ -47,7 +47,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   box-sizing: border-box;
-  overflow: auto;
+  overflow: hidden;
   padding-left: 10%;
   padding-right: 10%; }
   .page::after {
@@ -142,11 +142,10 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   box-sizing: border-box;
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
   margin: 0;
-  text-align: center;
-  overflow: hidden; }
+  text-align: center; }
   @media only screen and (min-width: 30em) {
     .masthead {
       position: absolute;
