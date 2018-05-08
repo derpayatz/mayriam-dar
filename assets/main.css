@@ -65,14 +65,14 @@ footer.page {
 
 .column {
   box-sizing: border-box; }
-  @media screen and (min-width: 45em) {
+  @media screen and (min-width: 60em) {
     .column {
       width: 61%;
       float: left; } }
 
 .sidebar {
   box-sizing: border-box; }
-  @media screen and (min-width: 45em) {
+  @media screen and (min-width: 60em) {
     .sidebar {
       width: 28%;
       float: right; } }
@@ -98,7 +98,7 @@ footer.page {
   text-align: right; }
   .sitelinks li {
     display: none; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 40em) {
       .sitelinks li {
         padding: 0 1rem 0 0;
         display: inline-block; }
@@ -106,7 +106,7 @@ footer.page {
           padding: 0; } }
   .sitelinks label {
     display: block; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 40em) {
       .sitelinks label {
         display: none !important; } }
   .sitelinks input[type=checkbox] {
@@ -128,8 +128,17 @@ footer.page {
   vertical-align: middle; }
 
 .cover {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  overflow: hidden;
   background-color: unset;
-  background: unset; }
+  background: unset;
+  padding-top: 55vw;
+  max-height: calc(100vh - 2.6rem); }
+  @media screen and (max-height: 101.75vw) {
+    .cover {
+      padding-top: 27.5vw; } }
   .cover img {
     width: 100%;
     margin: auto;
@@ -139,22 +148,22 @@ footer.page {
     @media only screen and (min-width: 90em) {
       .cover img {
         max-width: 90rem; } }
+  @media only screen and (min-width: 25em) {
+    .cover {
+      padding-top: 0; } }
 
-.hero {
-  margin-top: 55vw; }
-  @media only screen and (min-width: 30em) {
-    .hero {
-      position: relative;
-      margin-top: 0;
-      height: 55vw;
-      max-height: calc(100vh - 2.6rem); } }
-  @media only screen and (min-width: 30em) {
-    .hero .masthead {
-      position: absolute;
-      bottom: 0; } }
-  @media only screen and (min-width: 90em) {
-    .hero {
-      height: 49.5rem; } }
+@media only screen and (min-width: 25em) {
+  .hero {
+    position: relative;
+    margin-top: 0;
+    height: 55vw; } }
+@media only screen and (min-width: 25em) {
+  .hero .masthead {
+    position: absolute;
+    bottom: 0; } }
+@media only screen and (min-width: 90em) {
+  .hero {
+    height: 49.5rem; } }
 
 .masthead {
   margin-top: 0;
@@ -163,14 +172,19 @@ footer.page {
   overflow: hidden;
   width: 100%;
   margin: 0;
-  text-align: center; }
+  text-align: center;
+  font-size: 2rem; }
   .masthead h1 {
-    font-size: 3rem;
-    margin: 2rem auto 1rem auto; }
-    @media screen and (min-width: 30em) {
+    font-size: 2rem;
+    margin: 1rem auto 1rem auto; }
+    @media screen and (min-width: 25em) {
+      .masthead h1 {
+        font-size: 3rem;
+        margin: 1.5rem auto; } }
+    @media screen and (min-width: 40em) {
       .masthead h1 {
         font-size: 4rem;
-        margin: 3rem auto 1rem auto; } }
+        margin: 2rem auto; } }
   .masthead p {
     font-family: "Raleway", "sans-serif";
     font-size: 1.5rem;
@@ -185,19 +199,14 @@ footer.page {
       color: #a11212; }
 
 .masthead {
-  background-color: rgba(255, 255, 153, 0.45);
-  background: linear-gradient(45deg, rgba(255, 255, 153, 0.25) 5%, rgba(255, 255, 153, 0.45) 5%, rgba(255, 255, 153, 0.45) 45%, rgba(255, 255, 153, 0.25) 45%, rgba(255, 255, 153, 0.25) 55%, rgba(255, 255, 153, 0.45) 55%, rgba(255, 255, 153, 0.45) 95%, rgba(255, 255, 153, 0.25) 95%);
-  background-size: 5px 5px; }
-
-.hero .masthead {
   background-color: #ffff99;
   color: #0d0c0c; }
-  .hero .masthead a {
+  .masthead a {
     color: #0d0c0c; }
-    .hero .masthead a:hover, .hero .masthead a:focus {
+    .masthead a:hover, .masthead a:focus {
       color: #490404; }
-  @media screen and (min-width: 30em) {
-    .hero .masthead {
+  @media screen and (min-width: 25em) {
+    .masthead {
       background-color: rgba(255, 255, 153, 0.45);
       background: linear-gradient(45deg, rgba(255, 255, 153, 0.25) 5%, rgba(255, 255, 153, 0.45) 5%, rgba(255, 255, 153, 0.45) 45%, rgba(255, 255, 153, 0.25) 45%, rgba(255, 255, 153, 0.25) 55%, rgba(255, 255, 153, 0.45) 55%, rgba(255, 255, 153, 0.45) 95%, rgba(255, 255, 153, 0.25) 95%);
       background-size: 5px 5px; } }
