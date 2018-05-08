@@ -10,7 +10,7 @@ defaults:
   sidebar: 
     - donate
 baseurl: ""
-url: ""
+url: "https://derpayatz.github.io/mayriam-dar/"
 
 date_format: "%B %d, %Y"
 
