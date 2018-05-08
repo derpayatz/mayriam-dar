@@ -36,6 +36,11 @@ body {
 p {
   line-height: 1.6; }
 
+blockquote {
+  font-size: 1.4rem; }
+  blockquote p {
+    line-height: 1.92; }
+
 body {
   width: 100%;
   margin: auto; }
@@ -55,6 +60,9 @@ body {
     display: table;
     clear: both; }
 
+footer.page {
+  text-align: right; }
+
 .column {
   box-sizing: border-box; }
   @media screen and (min-width: 45em) {
@@ -68,6 +76,10 @@ body {
     .sidebar {
       width: 28%;
       float: right; } }
+
+.column article {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 .navigation {
   padding-top: .5rem;
@@ -117,17 +129,7 @@ body {
 
 .cover {
   background-color: unset;
-  background: unset;
-  margin-top: 55vw; }
-  @media only screen and (min-width: 30em) {
-    .cover {
-      position: relative;
-      margin-top: 0;
-      height: 55vw;
-      max-height: calc(100vh - 2.6rem); } }
-  @media only screen and (min-width: 90em) {
-    .cover {
-      height: 49.5rem; } }
+  background: unset; }
   .cover img {
     width: 100%;
     margin: auto;
@@ -138,6 +140,22 @@ body {
       .cover img {
         max-width: 90rem; } }
 
+.hero {
+  margin-top: 55vw; }
+  @media only screen and (min-width: 30em) {
+    .hero {
+      position: relative;
+      margin-top: 0;
+      height: 55vw;
+      max-height: calc(100vh - 2.6rem); } }
+  @media only screen and (min-width: 30em) {
+    .hero .masthead {
+      position: absolute;
+      bottom: 0; } }
+  @media only screen and (min-width: 90em) {
+    .hero {
+      height: 49.5rem; } }
+
 .masthead {
   margin-top: 0;
   margin-bottom: 0;
@@ -146,10 +164,6 @@ body {
   width: 100%;
   margin: 0;
   text-align: center; }
-  @media only screen and (min-width: 30em) {
-    .masthead {
-      position: absolute;
-      bottom: 0; } }
   .masthead h1 {
     font-size: 3rem;
     margin: 2rem auto 1rem auto; }
@@ -171,14 +185,19 @@ body {
       color: #a11212; }
 
 .masthead {
+  background-color: rgba(255, 255, 153, 0.45);
+  background: linear-gradient(45deg, rgba(255, 255, 153, 0.25) 5%, rgba(255, 255, 153, 0.45) 5%, rgba(255, 255, 153, 0.45) 45%, rgba(255, 255, 153, 0.25) 45%, rgba(255, 255, 153, 0.25) 55%, rgba(255, 255, 153, 0.45) 55%, rgba(255, 255, 153, 0.45) 95%, rgba(255, 255, 153, 0.25) 95%);
+  background-size: 5px 5px; }
+
+.hero .masthead {
   background-color: #ffff99;
   color: #0d0c0c; }
-  .masthead a {
+  .hero .masthead a {
     color: #0d0c0c; }
-    .masthead a:hover, .masthead a:focus {
+    .hero .masthead a:hover, .hero .masthead a:focus {
       color: #490404; }
   @media screen and (min-width: 30em) {
-    .masthead {
+    .hero .masthead {
       background-color: rgba(255, 255, 153, 0.45);
       background: linear-gradient(45deg, rgba(255, 255, 153, 0.25) 5%, rgba(255, 255, 153, 0.45) 5%, rgba(255, 255, 153, 0.45) 45%, rgba(255, 255, 153, 0.25) 45%, rgba(255, 255, 153, 0.25) 55%, rgba(255, 255, 153, 0.45) 55%, rgba(255, 255, 153, 0.45) 95%, rgba(255, 255, 153, 0.25) 95%);
       background-size: 5px 5px; } }
