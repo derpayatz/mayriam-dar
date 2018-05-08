@@ -18,6 +18,29 @@ conditions and needs.
 Munira delivers supplies herself in order to ensure that they are going directly to the
 people and children living in the camps, who need them so desperately. 
 
+## Domestic Violence Support
+
+The Maryiam Dar Association has recognized a critical need to educate 
+refugee families and especially women regarding their rights and resources 
+if they are experiencing domestic violence. Many refugee women live in 
+isolated family situations and feel completely dependent on an abusive 
+partner for their and their children’s survival. Others have experienced 
+rape and violence from their immigration sponsors. Even with education and 
+connections to domestic violence hotlines and shelters, many women are 
+afraid to leave. There is a fear of what will happen to them at a shelter, 
+with little to no interpretation available and many people with
+significantly different cultural norms and traditions. 
+
+With few resources for housing, Munira has opened her own doors to many of 
+these women and worked with them to understand the shelter systems, 
+overcome their fear and gain support. In addition to taking in local women 
+experiencing domestic violence, volunteers have personally transported 
+women at their own expense across state lines to get them into Munira’s 
+home and to help them access shelter services. This system is 
+unsustainable, and can result in confrontations between Munira and abusers 
+at her home. Munira is currently looking to create a safe space dedicated 
+to these women and the work of the Maryiam Dar Association.
+
 ## Interpretation and “Emergency Hotline” Program
 
 The Maryiam Dar Association is known across the Darfurian and Arabic-speaking refugee 
