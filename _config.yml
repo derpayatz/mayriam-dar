@@ -9,28 +9,19 @@ defaults:
     alt: Smiling Sudanese Girls
   sidebar: 
     - donate
-baseurl: "/mayriam-dar"
-url: "https://derpayatz.github.io"
+baseurl: ""
+url: "https://mayriam-dar.org"
 
 date_format: "%B %d, %Y"
 
 # Author Settings
 
-author: JL Feinstein
-email: derpayatz@jews.international
+author: Munira Mohamed
+email: onedarf@gmail.com 
 social:
-  - name: twitter
-    url: www.twitter.com/
-    handle: derpayatz
-  - name: github
-    url: github.com/
-    handle: derpayatz
-  - name: mastodon 
-    url: masto.jews.international/@
-    handle: derpayatz
-  - name: facebook
-    url: facebook.com/
-    handle: jl.feinstein.50
+#  - name: facebook
+#    url: facebook.com/
+#    handle: jl.feinstein.50
 
 # Theme Settings
 
@@ -43,7 +34,7 @@ collections:
 
 markdown: kramdown
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-responsive-image
 include: ['_pages']
 
